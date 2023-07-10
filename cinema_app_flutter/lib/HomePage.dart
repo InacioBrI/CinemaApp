@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
                     Text(
-                      "Bem vindo, Inácio",
+                      "hello, Inácio",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 26,
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                       Text(
-                      "qual será o filme de hoje?",
+                      "What movie do you want watch today?",
                       style: TextStyle(
                           color: Colors.white54,
                           ),
