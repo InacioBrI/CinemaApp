@@ -16,13 +16,21 @@ class HomePage extends StatelessWidget {
                 horizontal: 20
                 ),
                 child: Row(children: [
-                  Column(children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: const [
                     Text(
-                      "Olá Inácio",
+                      "Bem vindo, Inácio",
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 28,
+                        fontSize: 26,
                         fontWeight: FontWeight.w500
+                          ),
+                        ),
+                      Text(
+                      "qual será o filme de hoje?",
+                      style: TextStyle(
+                          color: Colors.white54,
                           ),
                         ),
                       ],
