@@ -31,6 +31,7 @@ class HomePage extends StatelessWidget {
                       "What movie do you want watch today?",
                       style: TextStyle(
                           color: Colors.white54,
+                          fontSize: 17,
                           ),
                         ),
                       ],
