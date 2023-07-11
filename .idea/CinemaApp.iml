@@ -7,7 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/cinema_app_flutter/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/cinema_app_flutter/build" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android Studio default JDK" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart Packages" level="project" />
     <orderEntry type="library" name="Dart SDK" level="project" />

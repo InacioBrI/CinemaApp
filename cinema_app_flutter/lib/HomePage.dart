@@ -15,7 +15,9 @@ class HomePage extends StatelessWidget {
                 vertical: 18,
                 horizontal: 20
                 ),
-                child: Row(children: [
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
@@ -32,15 +34,23 @@ class HomePage extends StatelessWidget {
                       style: TextStyle(
                           color: Colors.white54,
                           fontSize: 17,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(30),
+                      child: Image.asset(
+                        "name",
+                        height: 60,
+                        width: 60,
+                      ),
                     ),
                   ],
                 ),
               ),
             ],
-          )
+          ),
         ),
       ),
     );
